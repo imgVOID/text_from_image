@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Text from image service</title>
+    </head>
+    <body>
+        <h1 align="center">Text from image</h1>
+        <h2 align="center">Hello! Here you can get a text from an image, easy and fast.</h2>
+        <form method="POST" enctype="multipart/form-data">
+            {{ form.hidden_tag() }}
+            <p align="center">
+            	{{ form.photo.label }}<br>
+                {{ form.photo() }}
+            </p>
+            <p align="center">
+            	{{ form.submit() }}
+            </p>
+        </form>
+    </body>
+</html>
