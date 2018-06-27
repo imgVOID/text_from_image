@@ -1,2 +1,5 @@
 # text_from_image
-text from image service
+Text from image service.
+Language: Python; Framework: Flask; 
+OCR: Google Tesseract.
+HTML5, CSS3 was used too.
